@@ -18,11 +18,11 @@ const features = [
   },
   {
     id: 2,
-    badge: "Métricas Claras",
-    title: "Entiende qué te hace viral",
-    description: "Deja de adivinar. Visualiza tu crecimiento en TikTok e Instagram en un solo tablero. Identifica qué formatos funcionan mejor y duplica tu éxito sin abrir 5 apps diferentes.",
+    badge: "Calendario estructurado",
+    title: "Sabe cuando y que publicar",
+    description: "Deja de usar el calendario del celular. Visualiza tus tareas y contenido del mes en una sola pantalla. Identifica que tenes que hacer en cada momento.",
     icon: <BarChart3 className="w-6 h-6 text-brand-blue" />,
-    image: "/dashboard_mockup.png", // Asegúrate de tener esta captura
+    image: "/analytics_mockup.png", // Asegúrate de tener esta captura
     align: "right", // Imagen a la derecha
     color: "bg-brand-blue",
   },
@@ -119,9 +119,9 @@ export const FeaturesSection = () => {
                             {index === 0 && i === 1 && "Estados personalizables"}
                             {index === 0 && i === 2 && "Vista de lista y tablero"}
                             
-                            {index === 1 && i === 0 && "Métricas en tiempo real"}
-                            {index === 1 && i === 1 && "Comparativa entre plataformas"}
-                            {index === 1 && i === 2 && "Sin configuraciones complejas"}
+                            {index === 1 && i === 0 && "Cronograma del mes y la semana"}
+                            {index === 1 && i === 1 && "Recordatorios inteligentes"}
+                            {index === 1 && i === 2 && "Orden y claridad en el calendario"}
 
                             {index === 2 && i === 0 && "Subida de archivos multimedia"}
                             {index === 2 && i === 1 && "Generación de captions con IA"}

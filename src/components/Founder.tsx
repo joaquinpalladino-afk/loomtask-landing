@@ -33,19 +33,19 @@ export const FounderSection = () => {
                     {/* Placeholder si no hay foto aún */}
                     <span className="text-gray-400 font-medium">Tu Foto Aquí</span>
                 </div>
-                {/* Descomenta esto cuando tengas tu foto:
+                {
                 <Image
-                  src="/founder_photo.jpg"
+                  src="/perfil.jpeg"
                   alt="Tu Nombre - Founder de Loomtask"
                   fill
                   className="object-cover"
                 />
-                */}
+                 }
                 
                 {/* Badge flotante "Creator" */}
                 <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-xl shadow-lg border border-gray-100">
                     <p className="text-xs font-bold text-gray-500 uppercase tracking-wider">Founder & Dev</p>
-                    <p className="font-bold text-gray-900">@TuUsuario</p>
+                    <p className="font-bold text-gray-900">@joaquin.palladino</p>
                 </div>
               </div>
             </motion.div>
@@ -68,7 +68,7 @@ export const FounderSection = () => {
                 
                 <div className="space-y-4 text-lg text-gray-600 leading-relaxed">
                   <p>
-                    Hola, soy <span className="font-bold text-gray-900">[Tu Nombre]</span> 👋.
+                    Hola, soy <span className="font-bold text-gray-900">Joaquin Palladino</span> 👋.
                   </p>
                   <p>
                     Como creador de contenido y desarrollador, estaba harto de usar herramientas pensadas para empresas aburridas. Notion es lento. Excel es feo. Y mi calendario editorial era un desastre.
@@ -104,7 +104,7 @@ export const FounderSection = () => {
                 </a>
                 
                 <a 
-                  href="https://instagram.com/tu_usuario" 
+                  href="https://instagram.com/joaquin.palladino" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 px-6 py-3 bg-white text-gray-900 border border-gray-200 rounded-xl font-bold shadow-sm hover:border-pink-500 hover:text-pink-600 transition-colors"

@@ -88,7 +88,7 @@ export const Footer = () => {
           <div className="flex items-center gap-1 text-sm text-gray-500">
             <span>Hecho con</span>
             <Heart className="w-4 h-4 text-red-500 fill-current animate-pulse" />
-            <span>por <a href="https://twitter.com/tu_usuario" className="font-bold text-gray-900 hover:underline">Tu Nombre</a></span>
+            <span>por <a href="https://twitter.com/joac0_palladino" className="font-bold text-gray-900 hover:underline">Joaquin Palladino</a></span>
           </div>
         </div>
       </div>

@@ -128,7 +128,7 @@ export const Hero = () => {
             <div className="relative rounded-xl overflow-hidden shadow-2xl bg-white border border-gray-200">
               {/* Asegúrate de renombrar tu captura a dashboard_mockup.png */}
               <Image
-                src="/dashboard_mockup.png"
+                src="/analytics_mockup.png"
                 alt="Loomtask Dashboard Interface"
                 width={1920}
                 height={1080}
