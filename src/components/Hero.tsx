@@ -53,9 +53,9 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-gray-900 mb-6 max-w-4xl"
         >
-          El calendario de contenidos que{" "}
+          Organiza, guiona y escala tu contenido vertical{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2DD4BF] via-[#3B82F6] to-[#A855F7]">
-            TikTok e Instagram merecen.
+            en un solo lugar.
           </span>
         </motion.h1>
 

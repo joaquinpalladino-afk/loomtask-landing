@@ -19,7 +19,7 @@ const features = [
   {
     id: 2,
     badge: "Calendario estructurado",
-    title: "Sabe cuando y que publicar",
+    title: "Visualiza tu estrategia de publicación de un vistazo",
     description: "Deja de usar el calendario del celular. Visualiza tus tareas y contenido del mes en una sola pantalla. Identifica que tenes que hacer en cada momento.",
     icon: <BarChart3 className="w-6 h-6 text-brand-blue" />,
     image: "/analytics_mockup.png", // Asegúrate de tener esta captura
